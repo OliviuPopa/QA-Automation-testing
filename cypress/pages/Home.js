@@ -43,11 +43,9 @@ class HomePage {
         cy.get('[data-test="lastName"]').type(lastname)
         cy.get('[data-test="postalCode"]').type(zipcode)
         cy.get('[data-test="continue"]').click()
-    }
-    
-        
+    }           
 }
-    
+
     
 
 
